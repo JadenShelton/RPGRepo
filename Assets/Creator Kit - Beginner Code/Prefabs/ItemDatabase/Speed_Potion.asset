@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-4667458757477234429
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c3b2661330ee45f48892cfd38222e36, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Description: Agilty increase
+  boostDuration: 5
+  agilityBoost: 10
+  effectIcon: {fileID: 21300000, guid: 338fc10d4d8f8f742be440f3bd04ae8a, type: 3}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 328cd29feea7c9e448f98552a0eebdd2, type: 3}
+  m_Name: Speed_Potion
+  m_EditorClassIdentifier: 
+  ItemName: Speed Boost
+  ItemSprite: {fileID: 21300000, guid: 0e048954ff684ea4bb775a9845653428, type: 3}
+  Description: Breifly increase movement speed
+  WorldObjectPrefab: {fileID: 5898196935238221940, guid: 9be663f1d15d2a74395a9b0ff319d423,
+    type: 3}
+  UsageEffects:
+  - {fileID: -4667458757477234429}
+--- !u!114 &1668873556954331244
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c3b2661330ee45f48892cfd38222e36, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Description: 
+  boostDuration: 5
+  agilityBoost: 10
+  effectIcon: {fileID: 0}
